@@ -1,3 +1,4 @@
+#A. Franklin
 # Sprint Challenge: Theory of Computation and Hash Tables
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint, we explored the history and theory of computation, diving deep into regular expressions, state machines and building array functions and hash tables. In your challenge this week, you will demonstrate proficiency by filling out boolean truth tables and solving algorithms in Python using hash tables.
