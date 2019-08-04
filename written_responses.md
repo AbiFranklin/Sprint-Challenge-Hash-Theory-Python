@@ -1,5 +1,8 @@
 1. What is a regular expression and how does it work?
+Regular expression is a way to identify and , if needed, replace characters or strings of character that match a specified pattern. With a simple regex token, like '/dog/', the program will look at the first character of the string to see if it matches the first character of the regex token. If it doesn't, it'll move on to the next character of the string and repeat the process. If it does match, the program will then compare the next character of the string to the next character of the token. If it matches, it continues that process until a complete match of the token is found or a non match is found. In the event of a non match, the program goes back to the original matched character of the sting and token and moves forward to repeat the entire process on the next character of the string.
 
 2. What is an array and how does it work?
+An array is an indexed collection of elements. Arrays can be manipulated in a number of ways, but, primarily, this is involves calling an element by it's index and either reassigning a new element value or changing the order of the element values, placing them at a new index.
 
 3. What is a hash table and how does it work?
+A hash table is an associative array of keys and values. Elements are added to a hash table by using a hash function to generate a, hopefully, unique key based in the element's value. The goal being to prevent a new value from being mapped at a given key, over writing the previous value - a collision.
